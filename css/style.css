@@ -410,6 +410,7 @@ a.more {
 }
 
 .why-choose-section .img-wrap:before {
+    margin-top: 20px;
     position: absolute;
     content: "";
     width: 255px;
