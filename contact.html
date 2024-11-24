@@ -23,6 +23,30 @@
     <link href="css/tiny-slider.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Furni Free Bootstrap 5 Template for Furniture and Interior Design Websites by Untree.co </title>
+    <style>
+        #logo_header{
+            width : 150px ;
+            height : 150px
+        }
+        #logo_footer{
+            width : 200px ;
+            height : 180px
+        }
+        .color_white{
+            color: white;
+        }
+        @media (max-width:500px){
+            #logo_header{
+                width : 120px ;
+                height : 120px
+            }
+            #logo_footer{
+                width : 170px ;
+                height : 150px
+            }
+
+        }
+    </style>
 </head>
 
 <body>
@@ -31,7 +55,7 @@
     <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
         <div class="container">
-            <a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+            <div style="height: 80px;display: flex;align-items: center;justify-content: right;margin-left: -10px;margin-top: 15px;"><img src="images/logos/header.PNG" id="logo_header" alt="" ></a></div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -40,11 +64,11 @@
             <div class="collapse navbar-collapse" id="navbarsFurni">
                 <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
                     <li>
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
-                    <li><a class="nav-link" href="about.html">About us</a></li>
+                    <li><a class="nav-link" href="about.html">A-propos</a></li>
                     <li><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="contact.html">Contact us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html">Nous contacter</a></li>
                 </ul>
 
 
@@ -61,8 +85,13 @@
                 <div class="col-lg-5">
                     <div class="intro-excerpt">
                         <h1>Contact</h1>
-                        <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
-                        <p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
+                        <p class="mb-4">
+                            Nous sommes ravis de pouvoir vous aider ! Si vous avez des questions, 
+                            des suggestions ou des besoins spécifiques, 
+                            n’hésitez pas à nous contacter. 
+                            Notre équipe est disponible pour répondre à toutes vos demandes dans les meilleurs délais.
+                        </p>
+    
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -141,19 +170,19 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label class="text-black" for="fname">First name</label>
+                                        <label class="text-black" for="fname">Prenom</label>
                                         <input type="text" class="form-control" id="fname">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label class="text-black" for="lname">Last name</label>
+                                        <label class="text-black" for="lname">Nom</label>
                                         <input type="text" class="form-control" id="lname">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="text-black" for="email">Email address</label>
+                                <label class="text-black" for="email">E-mail</label>
                                 <input type="email" class="form-control" id="email">
                             </div>
 
@@ -162,7 +191,7 @@
                                 <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-primary-hover-outline">Send Message</button>
+                            <button type="submit" class="btn btn-primary-hover-outline">Envoyergi</button>
                         </form>
 
                     </div>
@@ -182,40 +211,20 @@
 
 
     <!-- Start Footer Section -->
-    <footer class="footer-section">
+    <footer class="footer-section" style="background-color: #3b5d50;color: white;">
         <div class="container relative">
 
-            <div class="sofa-img">
-                <img src="images/sofa.png" alt="Image" class="img-fluid">
-            </div>
 
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="subscription-form">
-                        <h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-                        <form action="#" class="row g-3">
-                            <div class="col-auto">
-                                <input type="text" class="form-control" placeholder="Enter your name">
-                            </div>
-                            <div class="col-auto">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                            </div>
-                            <div class="col-auto">
-                                <button class="btn btn-primary">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-                            </div>
-                        </form>
-
-                    </div>
+                    
                 </div>
             </div>
 
             <div class="row g-5 mb-5">
                 <div class="col-lg-4">
-                    <div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
-                    <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+                    <div style="height: 100px;display: flex;justify-content: left;align-items: center;margin-left: -10px;" class="mb-4 footer-logo-wrap"><img src="images/logos/header.PNG" alt="" id="logo_footer" ></a></div>
+                    <p  style="margin-bottom: 20px;color: rgba(255, 255, 255, 0.5);" >Nous ne nous contentons pas de fournir des solutions technologiques, nous créons des expériences qui transforment votre entreprise.</p>
 
                     <ul class="list-unstyled custom-social">
                         <li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
@@ -225,39 +234,41 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-8" >
                     <div class="row links-wrap">
                         <div class="col-6 col-sm-6 col-md-3">
                             <ul class="list-unstyled">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="about.html" style="color: white;">A-propos</a></li>
+                                <li><a href="services.html" style="color: white;">Services</a></li>
+                                <li><a href="index.html" style="color: white;">Blog</a></li>
+                                <li><a href="contact.html" style="color: white;">Nous contacter</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3">
+                            <ul class="list-unstyled" style="text-align: right;">
+                                <li><a href="about.html" style="color: white;">A-propos</a></li>
+                                <li><a href="services.html" style="color: white;">Services</a></li>
+                                <li><a href="index.html" style="color: white;">Blog</a></li>
+                                <li><a href="contact.html" style="color: white;">Nous contacter</a></li>
                             </ul>
                         </div>
 
                         <div class="col-6 col-sm-6 col-md-3">
                             <ul class="list-unstyled">
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">Knowledge base</a></li>
-                                <li><a href="#">Live chat</a></li>
+                                <li><a href="about.html" style="color: white;">A-propos</a></li>
+                                <li><a href="services.html" style="color: white;">Services</a></li>
+                                <li><a href="index.html" style="color: white;">Blog</a></li>
+                                <li><a href="contact.html" style="color: white;">Nous contacter</a></li>
                             </ul>
                         </div>
 
                         <div class="col-6 col-sm-6 col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Our team</a></li>
-                                <li><a href="#">Leadership</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-6 col-sm-6 col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Nordic Chair</a></li>
-                                <li><a href="#">Kruzo Aero</a></li>
-                                <li><a href="#">Ergonomic Chair</a></li>
+                            <ul class="list-unstyled" style="text-align: right;">
+                                <li><a href="about.html" style="color: white;">A-propos</a></li>
+                                <li><a href="services.html" style="color: white;">Services</a></li>
+                                <li><a href="index.html" style="color: white;">Blog</a></li>
+                                <li><a href="contact.html" style="color: white;">Nous contacter</a></li>
                             </ul>
                         </div>
                     </div>
@@ -265,22 +276,19 @@
 
             </div>
 
-            <div class="border-top copyright">
+            <div class="border-top copyright" >
                 <div class="row pt-4">
                     <div class="col-lg-6">
                         <p class="mb-2 text-center text-lg-start">Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>
+                            </script>. All Rights Reserved. &mdash; Designed with love by our team
                             <!-- License information: https://untree.co/license/ -->
                         </p>
                     </div>
 
                     <div class="col-lg-6 text-center text-lg-end">
-                        <ul class="list-unstyled d-inline-flex ms-auto">
-                            <li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
+                        
                     </div>
 
                 </div>
